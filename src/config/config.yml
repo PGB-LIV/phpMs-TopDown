@@ -1,0 +1,5 @@
+services:
+    PlotMS2.command.my_command:
+        class: pgb_liv\rt_profile\Command\PlotMS2
+        tags:
+            - { name: console.command }
